@@ -1,8 +1,9 @@
 import React from 'react'
-import { useRef, useState } from "react";
+// import { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper";
+import { TestimonialsData } from '../../../Data/Testimonials/TestimonialsData';
 
 // Import Swiper styles
 import "swiper/css";
@@ -30,8 +31,12 @@ const Testimonials = () => {
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide>Slide 1</SwiperSlide>
 
+      {TestimonialsData.map((item,index)=> {
+        <SwiperSlide>
+          <p>{item.text}</p>
+        </SwiperSlide>
+      })}
       </Swiper>
     </>
     </div>

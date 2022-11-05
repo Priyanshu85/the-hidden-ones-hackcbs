@@ -5,9 +5,9 @@ const DoctorsCard = () => {
   return (
     <div>
       {
-        TestimonialsData.map((item, index) => {
+        TestimonialsData.map(({item}) => {
           return (
-            <Cards props= {item} key={index}/>
+            <Cards props= {item} key={item.id}/>
           )
         })
       }

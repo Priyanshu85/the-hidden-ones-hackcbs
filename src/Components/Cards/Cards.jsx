@@ -25,7 +25,7 @@ const Cards = ({props}) => {
         </div>
     </div>
     <div className="flex flex-col items-center pb-10">
-        <img className="mb-3 w-24 h-24 rounded-full shadow-lg" src="/docs/images/people/profile-picture-3.jpg" alt="Bonnie image"/>
+        <img className="mb-3 w-24 h-24 rounded-full shadow-lg" src="/docs/images/people/profile-picture-3.jpg" alt="BonnieImage"/>
         <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">{props.personName}</h5>
         <span className="text-sm text-gray-500 dark:text-gray-400">{props.role}</span>
         <div className="flex mt-4 space-x-3 md:mt-6">

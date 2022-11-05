@@ -45,7 +45,7 @@ const Testimonials = () => {
       </svg>
       {item.text}
       <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-8 mb-6"></span>
-      <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm"></h2>
+      {/* <h2 class="text-gray-900 font-medium tracking-wider text-sm"/></h2> */}
       <p class="text-gray-500">{item.role}</p>
     </div>
   </div>

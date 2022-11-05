@@ -1,6 +1,6 @@
 import React from 'react'
-import { TestimonialsData } from '../../Data/Testimonials/TestimonialsData'
-import Cards from '../Cards/Cards'
+import { TestimonialsData } from '../../../Data/Testimonials/TestimonialsData';
+import Cards from '../../Cards/Cards';
 const DoctorsCard = () => {
   return (
     <div>

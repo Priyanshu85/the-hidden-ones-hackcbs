@@ -1,7 +1,7 @@
 import React from 'react'
-import Cards from '../../Components/Cards/Cards'
+// import Cards from '../../Components/Cards/Cards'
 //Components
-import Head from "../../Components/Home/Head/Head"
+// import Head from "../../Components/Home/Head/Head"
 import Navbar from '../../Components/Common/Navbar/Navbar'
 import Footer from '../../Components/Common/Footer/Footer'
 import Testimonials from '../../Components/Home/Testimonials/Testimonials'

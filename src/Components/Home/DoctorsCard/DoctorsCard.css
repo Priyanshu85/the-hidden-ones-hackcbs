@@ -31,3 +31,14 @@
     align-items:center;
     flex-direction:column;
 }
+
+@media screen and (max-width:1240px){
+    .GridContainer{
+        grid-template-columns: auto auto;
+    }
+}
+@media screen and (max-width:768px){
+    .GridContainer{
+        grid-template-columns: auto;
+    }
+}
